@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="orangeHeading">#e66e0b</color>
+    <color name="definition_button_colour">#ffb74d</color>
+    <color name="term_button_colour">#6c1ced</color>
+    <color name="selectedButton">#32ddf0</color>
+    <color name="wrongAnswer">#ee020b</color>
+    <color name="correctAnswer">#71e73a</color>
+</resources>
