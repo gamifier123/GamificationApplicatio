@@ -50,16 +50,94 @@
         app:layout_constraintVertical_bias="0.04"
         app:srcCompat="@drawable/cancel_button" />
 
-    <RelativeLayout
-        android:layout_width="409dp"
-        android:layout_height="560dp"
+    <View
+        android:id="@+id/dividerTop"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:background="?android:attr/listDivider"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/descriptionDB"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/termToDisplay"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Term to Define"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.988">
+        app:layout_constraintVertical_bias="0.278" />
 
-    </RelativeLayout>
+    <com.google.android.flexbox.FlexboxLayout
+        android:id="@+id/wordDropZone"
+        android:layout_width="396dp"
+        android:layout_height="145dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/db_drop_zone_background"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:alignContent="flex_start"
+        app:flexWrap="wrap"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dividerTop">
+        <!-- Word TextViews will be added here programmatically -->
+    </com.google.android.flexbox.FlexboxLayout>
 
+    <View
+        android:id="@+id/dividerBottom"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/wordDropZone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:id="@+id/flexboxLayoutWordChoices"
+        android:layout_width="396dp"
+        android:layout_height="143dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/db_word_zone_background"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:alignContent="flex_start"
+        app:flexWrap="wrap"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dividerBottom"
+        app:layout_constraintVertical_bias="0.0">
+
+        <!-- Individual words will be added here programmatically -->
+
+    </com.google.android.flexbox.FlexboxLayout>
+
+    <Button
+        android:id="@+id/checkButton"
+        android:layout_width="158dp"
+        android:layout_height="80dp"
+        android:text="@string/db_check_button"
+        android:background="@drawable/db_check_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.968"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.867" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
