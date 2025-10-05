@@ -1,24 +1,23 @@
 <resources>
+    <!--General-->
     <string name="app_name">Games</string>
-
+    <string name="cancel_button">Cancel Button</string>
     <string name="headingMain">Games</string>
     <string name="descriptionMain">Select a game to play.</string>
-
+    <!--Matching Game-->
     <string name="headingDB">Definition Builder</string>
     <string name="descriptionDB">Complete the definition by placing the missing words in the correct empty spaces.</string>
-
     <string name="headingMatching">Matching Game</string>
     <string name="descriptionMatching">Match the appropriate term with the correct definition.</string>
-
     <string name="headingCrossword">Crossword</string>
     <string name="descriptionCrossword">Fill in the blocks with the correct words.</string>
-
     <string name="gameQuote">Did you know that educational games boost problem-solving skills, improve knowledge retention and increase engagement in learning?</string>
-
     <string name="definitionBuilder">Definition Builder</string>
     <string name="matchingGame">Matching Game</string>
     <string name="crossword">Crossword</string>
     <string name="MG_term">Term</string>
     <string name="MG_definition">Definition</string>
-    <string name="cancel_button">Cancel Button</string>
+
+    <!--Definition Builder-->
+    <string name="db_check_button">Check</string>
 </resources>
