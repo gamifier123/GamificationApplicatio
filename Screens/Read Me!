@@ -3,3 +3,5 @@ then use the "Explanation" file to say what each screen corresponds to what acti
 and any extra notes you want to add.
 
 Also upload any custom drawable files from your "drawable" folder, and your custom layout files, into your respective folders.
+
+Also add any strings and colours into strings.xml and colors.xml respectively. And add descriptions into each of your respective explanations
