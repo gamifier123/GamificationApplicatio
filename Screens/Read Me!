@@ -2,4 +2,4 @@ Upload your xml files, for each screen (in the "layout" folder), to each of your
 then use the "Explanation" file to say what each screen corresponds to what activity, 
 and any extra notes you want to add.
 
-Also upload any custom drawable files into your "drawable" folder to your folder.
+Also upload any custom drawable files from your "drawable" folder, and your custom layout files, into your respective folders.
