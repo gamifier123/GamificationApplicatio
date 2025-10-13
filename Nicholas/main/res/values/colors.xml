@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--General Colours-->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="orangeHeading">#e66e0b</color>
+
+    <!--Matching Game-->
+    <color name="definition_button_colour">#ffb74d</color>
+    <color name="term_button_colour">#6c1ced</color>
+    <color name="selectedButton">#32ddf0</color>
+    <color name="wrongAnswer">#ee020b</color>
+    <color name="correctAnswer">#71e73a</color>
+    <color name="definition_button_text">#800080</color>
+
+    <!--Definition Builder-->
+    <color name="check_button_colour">#ffb74d</color>
+
+
+</resources>
