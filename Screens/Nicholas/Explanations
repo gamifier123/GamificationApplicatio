@@ -1,1 +1,26 @@
+In layout:
 
+activity_crossword: The screen for the crossword game
+activity_definition_builder: The screen for the definition builder game
+activity_main: The screen for the selecting a game
+activity_matching_game: The screen for the matching game
+cw_clue_item: Layout for the clues that will be shown to the user in the crossword game
+cw_grid_cell: Layout for the individual cells in the gridlaout in the crossword game
+
+
+In Drawable:
+
+cancel_button: Cancels game
+Other pics: icons to take the user to the different games
+db_check_button: background for the check button in the definition builder game and the crossword game
+db_drop_zone_background: background for the drop zone where the words will land to build the definition
+db_word_background: layout for the individual words that will be used to build the definitions
+db_word_zone_background: background for the area, where the words to be clicked, will be
+mg_definition_button_format: default background for the definition button in the matching game
+mg_definition_selected_format: background for when the definition buttons are clicked in the matching game
+mg_term_button_format: default background for the term buttons in the matching game
+mg_term_button_format: background for when the term buttons are clicked in the matching game
+
+
+
+Please see colors.xml and strings.xml for more info on each values
