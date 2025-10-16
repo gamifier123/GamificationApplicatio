@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradientbgd">
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="-100dp"
+        android:src="@drawable/logo_removebg"
+        android:contentDescription="Cognify Logo" />
+
+    <TextView
+        android:id="@+id/subtitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logoImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="Your academic companion"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif" />
+
+    <Button
+        android:id="@+id/getStartedButton"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:backgroundTint="#FF9800"
+        android:text="Let's get you sorted >"
+        android:textColor="#EBEBEB"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif" />
+
+</RelativeLayout>

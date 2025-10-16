@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradientbgd">
+
+    <TextView
+        android:id="@+id/completionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:text="Your varsity experience awaits"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif" />
+
+    <ImageView
+        android:id="@+id/checkmarkIcon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="-50dp"
+        android:background="@drawable/checkmark_background"
+        android:src="@drawable/checkmark_icon"
+        android:contentDescription="Success Checkmark" />
+
+    <Button
+        android:id="@+id/startAppButton"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:backgroundTint="#FF9800"
+        android:text="Let's indulge ! >"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif" />
+
+</RelativeLayout>
